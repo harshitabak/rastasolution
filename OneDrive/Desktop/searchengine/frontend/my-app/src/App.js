@@ -24,8 +24,8 @@ function App() {
     <div className='App'>
     <h1> se@rch eng!ne </h1>
       <form  className = "form" onSubmit={handleSearch}>
-       <span> <input  className=' inputdata' type="text" placeholder='search here' value={query} onChange={(e) => setQuery(e.target.value)} />
-        <button className='btn' type="submit"><BiSearch size ={22}/></button> </span>
+        <input  className=' inputdata' type="text" placeholder='search here' value={query} onChange={(e) => setQuery(e.target.value)} />
+        <span className ='btn' ><BiSearch size ={22}/> </span>
       </form>
 
       <ul>

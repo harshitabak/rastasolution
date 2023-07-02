@@ -11,8 +11,13 @@
   border-radius: 10px;
   min-width: 300px;
   box-shadow: 0vi;
-  padding: 5px;
-  border-color: blueviolet;
+  padding: 10px;
+  border: none;
+  background-color: rgb(249, 239, 239);
+  
+}
+.inputdata :focus{
+  outline: none;
 }
 
 .btn{
@@ -20,10 +25,11 @@ border: none;
 align-items: center;
 margin-top: 20px;
 max-width: 10px;
-background-color: white;
+background-color:rgb(249, 239, 239); 
 cursor: pointer;
 color: blueviolet;
-zoom: normal;
+border-radius: 5px;
+padding: 2px;
 }
 h1{
   color: blue;
